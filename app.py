@@ -13,7 +13,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 def search_amazon(query):
     url = "https://real-time-amazon-data.p.rapidapi.com/search"
     headers = {
-        "X-RapidAPI-Key": "your RapidapiKey",
+        "X-RapidAPI-Key": "ace595d123msh1d744c1f92d8fc5p1f43ddjsn05e0934740e9",
         "X-RapidAPI-Host": "real-time-amazon-data.p.rapidapi.com"
     }
     params = {"query": query, "country": "IN"}
@@ -41,7 +41,7 @@ def search_amazon(query):
 def search_flipkart(query):
     url = "https://real-time-flipkart-data2.p.rapidapi.com/product-details"
     headers = {
-        "X-RapidAPI-Key": "Your Rapidapi_key ",
+        "X-RapidAPI-Key": "ace595d123msh1d744c1f92d8fc5p1f43ddjsn05e0934740e9 ",
         "X-RapidAPI-Host": "real-time-flipkart-data2.p.rapidapi.com"
     }
 
@@ -73,7 +73,7 @@ class ECommerceAgent:
     def __init__(self):
         self.llm = ChatGroq(
             model_name="mixtral-8x7b-32768",
-            api_key="Your Groq_api_key "
+            api_key="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 "
         )
         self.prompt = PromptTemplate(
             template="Compare these products: {products}. Recommend the best product based on price, reviews, and specs. Include links for each product.",
