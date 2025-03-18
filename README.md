@@ -16,14 +16,26 @@ To set up the project locally:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/stock-analysis-dashboard.git
-cd stock-analysis-dashboard
+git clone https://github.com/yourusername/ecommerce-comparison.git
+cd ecommerce-comparison
 ```
-2. Install dependencies:
+2. Set up a virtual environment (optional):
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-3. Run the Streamlit app:
+4. Set environment variables:
+Create a `.env` file with the following:
+```bash
+GROQ_API_KEY=your_groq_api_key
+RAPIDAPI_KEY=your_rapidapi_key
+
+```
+6. Run the Streamlit app:
 ```bash
 streamlit run app.py
 ```
@@ -32,8 +44,11 @@ streamlit run app.py
 Add these to your `requirements.txt`:
 ```
 streamlit
-yfinance
-ta
+requests
+langchain
+langchain_groq
+python-dotenv
+
 ```
 
 ## 🖥️ Deployment
