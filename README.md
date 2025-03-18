@@ -1,84 +1,57 @@
-🛒 E-Commerce Product Comparison
+# 🛒 E-Commerce Product Comparison
 
-This project is a Streamlit-based web application that compares products from Amazon and Flipkart using real-time APIs. It leverages LangChain with Groq's LLM to analyze and recommend the best product based on price, reviews, and specifications.
+   This project is a Streamlit-based web application that compares products from Amazon and Flipkart using real-time APIs. It leverages LangChain with Groq's LLM to analyze and recommend the best product based on price, reviews, and specifications.
 
-🚀 Features
+## 🚀 Features
 
-Compare Products: Fetch real-time product data from Amazon and Flipkart.
+- 📊 Compare products from Amazon and Flipkart in real-time
 
-AI Recommendation: Get the best product suggestion using Groq's AI model.
+- 💬 AI-powered recommendations using Groq's LLM
 
-Product Listings: Display product details including title, price, rating, and purchase links.
+- 🔍 Detailed product listings with price, ratings, and links
+   
 
-🧰 Tech Stack
+## 🛠️ Installation
+To set up the project locally:
 
-Python 3.10+
-
-Streamlit (for the UI)
-
-LangChain (for AI integration)
-
-Groq API (for LLM-powered insights)
-
-RapidAPI (for real-time Amazon and Flipkart data)
-
-📦 Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/ecommerce-comparison.git
-
-cd ecommerce-comparison
-
-Set up a virtual environment (optional):
-
-python -m venv venv
-
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-Install dependencies:
-
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/stock-analysis-dashboard.git
+cd stock-analysis-dashboard
+```
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
-
-Set environment variables:
-
-Create a .env file with the following:
-
-GROQ_API_KEY=your_groq_api_key
-
-RAPIDAPI_KEY=your_rapidapi_key
-
-▶️ Usage
-
-Run the application:
-
+```
+3. Run the Streamlit app:
+```bash
 streamlit run app.py
+```
 
-Enter a product name in the input box and click "Compare Products".
+## 📋 Requirements
+Add these to your `requirements.txt`:
+```
+streamlit
+yfinance
+ta
+```
 
-📊 Output
+## 🖥️ Deployment
+To deploy on **Streamlit Cloud**:
 
-AI Recommendation: Best product based on a detailed comparison.
+1. Push your code to a GitHub repository.
+2. Go to [Streamlit Cloud](https://share.streamlit.io) and log in with GitHub.
+3. Click **"New app"** and select your repository.
+4. Enter `app.py` as the entry point.
+5. Click **"Deploy"** and your app will go live!
 
-Product Listings: Display individual product details from both platforms.
 
-🔒 API Configuration
+## 🤝 Contributing
+Contributions are welcome! Please follow these steps:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m "Add new feature"`).
+4. Push the branch (`git push origin feature-branch`).
+5. Submit a pull request.
 
-Ensure you have valid API keys:
-
-Groq API: Get your Groq API key
-
-RapidAPI: Get Amazon and Flipkart API keys
-
-📝 License
-
-This project is licensed under the MIT License.
-
-📧 Contact
-
-For any issues or suggestions, feel free to reach out:
-
-GitHub: yourusername
-
-Email: your@email.com
 
