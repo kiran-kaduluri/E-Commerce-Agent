@@ -2,6 +2,10 @@
 
    This project is a Streamlit-based web application that compares products from Amazon and Flipkart using real-time APIs. It leverages LangChain with Groq's LLM to analyze and recommend the best product based on price, reviews, and specifications.
 
+## 🌐 Live Deployment
+
+Check out the live app: `https://e-commerce-kiran.streamlit.app/`
+
 ## 🚀 Features
 
 - 📊 Compare products from Amazon and Flipkart in real-time
