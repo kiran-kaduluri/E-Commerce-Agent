@@ -4,7 +4,7 @@
 
 ## 🌐 Live Deployment
 
-Check out the live app: `https://e-commerce-kiran.streamlit.app/`
+Check out the live app: https://e-commerce-kiran.streamlit.app/
 
 ## 🚀 Features
 
