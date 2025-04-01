@@ -73,7 +73,7 @@ class ECommerceAgent:
     def __init__(self):
         self.llm = ChatGroq(
             model_name="mixtral-8x7b-32768",
-            api_key="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"
+            api_key="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"
         )
         self.prompt = PromptTemplate(
             template="Compare these products: {products}. Recommend the best product based on price, reviews, and specs. Include links for each product.",
