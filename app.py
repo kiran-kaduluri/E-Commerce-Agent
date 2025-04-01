@@ -72,7 +72,7 @@ def search_flipkart(query):
 class ECommerceAgent:
     def __init__(self):
         self.llm = ChatGroq(
-            model_name="mixtral-8x7b-32768",
+            model_name="llama-3.3-70b-versatile",
             api_key="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"
         )
         self.prompt = PromptTemplate(
